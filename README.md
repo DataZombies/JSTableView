@@ -9,7 +9,7 @@ In native apps, these lists do not simply load up an entire set of data elements
 
 ## Documentation
 
-The source code is documented using [docco](//jashkenas.github.com/docco/) and you can find that documentation in the `docs` directory.
+The source code is documented using [docco](http://jashkenas.github.com/docco/) and you can find that documentation in the `docs` directory.
 
 As for a quickstart, it really is as simple as including the source files and stylesheets, create a container object (I like using `divs`, but any block element will work) and, after the document has loaded (`$(document).ready()`, `$()`, or body onLoad), call `JSTableView.tableViewWithOptions`, passing in an options object as a parameter. The currently supported options are:
 
